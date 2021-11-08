@@ -1,6 +1,6 @@
 # sentence-planner
 
-This is the code for the paper [Sentence-level Planning for Especially Abstractive Summarization](https://summarization2021.github.io/schedule/12.pdf) presented at the *New Frontiers in Summarization* workshop at EMNLP 2021.
+This is the code for the paper [Sentence-level Planning for Especially Abstractive Summarization](https://aclanthology.org/2021.newsum-1.1.pdf) presented at the *New Frontiers in Summarization* workshop at EMNLP 2021.
 
 The repository is a fork of the [PreSumm](https://github.com/nlpyang/PreSumm) repository. Changed and added source files are marked in their header comment, others are left untouched. 
 

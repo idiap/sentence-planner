@@ -9,6 +9,7 @@ The repository is a fork of the [PreSumm](https://github.com/nlpyang/PreSumm) re
 2. [Installation](#installation)
 3. [Training](#training)
 4. [Evaluation](#evaluation)
+5. [Citation](#citation)
 
 ## Data
 For CNN/DM, download the preprocessed data or follow the instructions in the [PreSumm](https://github.com/nlpyang/PreSumm) repository.
@@ -103,4 +104,22 @@ conda env create -f coref.yml
 conda activate coref
 python -m spacy download en_core_web_lg
 python src/eval/coref.py --eval_dir <path_to_result_dir>
+```
+
+## Citation
+If you use this code, please cite us.
+```
+@inproceedings{marfurt-henderson-2021-sentence,
+    title = "Sentence-level Planning for Especially Abstractive Summarization",
+    author = "Marfurt, Andreas  and
+      Henderson, James",
+    booktitle = "Proceedings of the Third Workshop on New Frontiers in Summarization",
+    month = nov,
+    year = "2021",
+    address = "Online and in Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.newsum-1.1",
+    doi = "10.18653/v1/2021.newsum-1.1",
+    pages = "1--14",
+}
 ```
